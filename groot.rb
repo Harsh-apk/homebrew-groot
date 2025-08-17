@@ -1,9 +1,8 @@
 # groot.rb
 class Groot < Formula
-  desc "A tool for generating a comprehensive overview of your codebase,
-designed to enhance the context provided to Large Language Models (LLMs)."
+  desc "A tool to generate a comprehensive overview of a codebase for LLMs"
   homepage "https://github.com/harsh-apk/groot" # Your project's GitHub URL
-  version "0.1.0" # This must match your release tag
+  version "1.0.0-beta" # This must match your release tag
 
   # Define different URLs and checksums for different CPU architectures
   if Hardware::CPU.intel?
